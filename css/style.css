@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Nunito Sans', Arial, sans-serif;
+}
+
+header {
+    display: flex;
+}
+
+.logo-ghn {
+    width: 10%;
+    margin-left: 52%;
+    transition: 0.5s all;
+}
+
+.logo-ghn:hover {
+    transform: scale(1.1);
+}
+
+nav#menu-principal {
+    background-color: #022377;
+    width: 15%;
+    position: absolute;
+    height: 100%;
+}
+
+#menu-principal>ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-top: 25%;
+}
+
+#menu-principal>ul>li {
+    text-align: center;
+}
+
+#menu-principal>ul>li>a {
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+#menu-principal>ul>li>a:hover {
+    background-color: #043cca;
+}
+
+#corpo {
+    background-color: white;
+    width: 85%;
+    margin-left: 15%;
+}
+
+.postagem {
+    background-color: #cdd3e4;
+    width: 80%;
+    margin: 1% auto 1% auto;
+    padding: 1%;
+    text-align: justify;
+}
+
+.postagem>h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+#rodape {
+    background-color: #022377;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    height: 8%;
+    margin-left: 15%;
+    position: absolute;
+    bottom: 0;
+}
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+}
+
+.redes-sociais, .gabriel {
+    margin-right: 5px;
+}
+
+.redes-sociais, .natalia {
+    margin-left: 5px;
+}
+
+.redes-sociais>a {
+    margin: 5px 5px 0 5px;
+}
+
+#rodape>p{
+    font-size: 16px;
+    color: #fff;
+}
