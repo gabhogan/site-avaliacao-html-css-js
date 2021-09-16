@@ -34,7 +34,7 @@ div#container{
 }
 /*Formatando o header */
 header#cabecalho{
-    border-bottom: 2pt solid blue;
+    border-bottom: 2pt solid rgb(100, 144, 255);
 }
 /*Formatando o menu principal */
 nav#menu-principal{
@@ -52,7 +52,7 @@ nav#menu-principal ul{
     
 }
 nav#menu-principal ul li{
-    background-color: blue;
+    background-color: rgb(100, 144, 255);
     margin: 2px;
     width: 100px;
     padding: 2px 10px 2px 10px;
@@ -61,7 +61,7 @@ nav#menu-principal ul li{
 }
 /*Formatando o rodape */
 footer#rodape{
-    border-top: 2pt solid blue;
+    border-top: 2pt solid rgb(100, 144, 255);
     margin-top: 30px;
 
 }
