@@ -1,4 +1,4 @@
-@charset "UTF-8" ;
+@charset "UTF-8";
 h1{
     font-family: 'Arial';
     font-size: 16pt;
@@ -15,6 +15,7 @@ h2,h3{
     margin-top: 0px;
 
 }
+
 section#corpo p a {
     font-size: 10pt;
     color: #666;
